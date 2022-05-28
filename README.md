@@ -1,5 +1,11 @@
-## Introduction
+# Statstation
 This is the project made during my microsoft engage 2022 period on the topic Data Analytics!
+
+Statstation is a full-stack web application on which multiple people can have a video conversation.
+Implemented the ADAPT Feature(ADAPT) to store data from charts.
+Created multiple dashboard Page (X-Factor) where people can have virtual do analysis/view stats together and share with people of common interests.
+
+
 
 ## Tech Stack
 
