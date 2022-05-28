@@ -1,61 +1,61 @@
 {
     "action": {
-        "login": "로그인",
-        "save": "저장",
-        "close": "닫기",
-        "cancel": "취소",
-        "enabled": "사용 여부",
-        "add": "추가",
-        "more": "더 보기",
-        "ok": "확인",
-        "collapse": "축소",
-        "expand": "확장",
-        "clear": "초기화"
+        "login": "login",
+        "save": "save",
+        "close": "close",
+        "cancel": "cancel",
+        "enabled": "enabled",
+        "add": "add",
+        "more": "view more",
+        "ok": "ok",
+        "collapse": "collapse",
+        "expand": "expand",
+        "clear": "clear"
     },
     "common": {
-        "id": "아이디",
-        "home": "홈",
-        "title": "제목",
-        "description": "설명",
-        "general": "일반",
-        "value": "값",
-        "gauge": "게이지",
-        "name": "이름",
-        "type": "종류",
-        "data": "데이터",
-        "user-id": "사용자 아이디",
-        "password": "비밀번호",
-        "info": "정보",
-        "warning": "경고",
-        "critical": "심각",
-        "location": "위치",
-        "basic-info": "기본 정보",
-        "category": "카테고리",
-        "time": "시간",
-        "log": "로그",
-        "visible": "보기",
-        "inverse": "역",
-        "scale": "규모",
-        "min": "최소",
-        "max": "최대",
-        "structure": "구조",
-        "style": "스타일",
-        "item": "아이템",
-        "axis": "축",
-        "none": "없음"
+        "id": "id",
+        "home": "home",
+        "title": "title",
+        "description": "description",
+        "general": "general",
+        "value": "value",
+        "gauge": "gauge",
+        "name": "name",
+        "type": "type",
+        "data": "data",
+        "user-id": "user-id",
+        "password": "password",
+        "info": "info",
+        "warning": "warning",
+        "critical": "critical",
+        "location": "location",
+        "basic-info": "basic info",
+        "category": "category",
+        "time": "time",
+        "log": "log",
+        "visible": "visible",
+        "inverse": "inverse",
+        "scale": "scale",
+        "min": "min",
+        "max": "max",
+        "structure": "structure",
+        "style": "style",
+        "item": "item",
+        "axis": "axis",
+        "none": "none"
     },
     "confirm": {
-        "delete": "'{{arg}}'을(를) 삭제하시겠습니까?"
+        "delete": "'Are you sure you want to delete '{{arg}}'?'"
     },
     "chart": {
-        "line": "라인 차트",
-        "bar": "바 차트",
-        "area": "영역 차트",
-        "scatter": "스캐터 차트",
-        "pie": "파이 차트"
+        "line": "line chart",
+        "bar": "bar chart",
+        "area": "area chart",
+        "scatter": "scatter chart",
+        "pie": "pir chart"
     },
     "widget": {
-        "modify": "위젯 수정",
+        "modify": "Edit widget",
         "delete": "위젯 삭제",
         "clone": "위젯 복제",
         "silent": "이벤트 취소",
@@ -113,30 +113,30 @@
             "title": "애니메이션"
         },
         "tooltip": {
-            "title": "툴팁",
+            "title": "title",
             "show-content": "Show content"
         },
         "trigger": {
-            "title": "트리거"
+            "title": "trigger"
         }
     },
     "validate": {
         "enter-arg": "'{{arg}}'을(를) 입력해 주세요"
     },
     "layout": {
-        "left": "왼쪽",
-        "right": "오른쪽",
-        "top": "위",
-        "bottom": "아래",
-        "width": "넓이",
-        "height": "높이",
-        "background-color": "배경색",
-        "border-color": "테두리 색",
-        "border-width": "테두리 넓이",
-        "shadow-color": "그림자 색",
-        "shadow-blur": "그림자 번짐",
-        "shadow-offset-x": "그림자 X 위치",
-        "shadow-offset-y": "그림자 Y 위치"
+        "left": "left",
+        "right": "right",
+        "top": "top",
+        "bottom": "bottom",
+        "width": "width",
+        "height": "height",
+        "background-color": "background-color",
+        "border-color": "border-color",
+        "border-width": "border-width",
+        "shadow-color": "shadow-color",
+        "shadow-blur": "shadow-blur",
+        "shadow-offset-x": "shadow-offset-x",
+        "shadow-offset-y": "shadow-offset-y"
     },
     "event": {
         "mousemove": "Mousemove",
@@ -145,6 +145,6 @@
         "none": "None"
     },
     "dashboard": {
-        "dashboard": "대시보드"
+        "dashboard": "dashboard"
     }
 }
