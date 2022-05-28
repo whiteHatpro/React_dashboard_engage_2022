@@ -1,11 +1,10 @@
 # Statstation
+
 This is the project made during my microsoft engage 2022 period on the topic Data Analytics!
 
 Statstation is a full-stack web application on which multiple people can study the stats of various data.
 Implemented the ADAPT Feature(ADAPT) to store data from charts.
 Created multiple dashboard Page (X-Factor) where people can have virtual do analysis/view stats together and share with people of common interests.
-
-
 
 ## Tech Stack
 
@@ -14,6 +13,7 @@ Created multiple dashboard Page (X-Factor) where people can have virtual do anal
 - Database for user and channel data: **MongoDB**
 
 ## Agile
+
 The development was led forward with an agile mindset, following an iterative development & indulging in sprints for groups of features instead of one single feature due to time being limited. This allowed the development to be more organized thorughout and was able to easily infuse in, the feature that the 'adopt' stage asked for.
 
 ## Overview
@@ -29,18 +29,27 @@ User-related details and channel detail are stored using MongoDB. A document bas
 User authentication is added to the application using firebase along with React's Context to pass down user details to every child UI component.
 
 ## Theme Demo
-![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg 
+
+![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg
 "Gentelella Theme Browser Preview")
+
 ## Screenshots
+
 ![screenshot-colorlib com-2022 05 28-15_44_14](https://user-images.githubusercontent.com/77486870/170821004-84b5d757-03f4-4823-8d62-3a88935dbb4a.png)
 ![screenshot-colorlib com-2022 05 28-15_43_50](https://user-images.githubusercontent.com/77486870/170821006-297ed0a7-8c03-4158-adff-6ac6801ba878.png)
 ![screenshot-colorlib com-2022 05 28-15_43_18](https://user-images.githubusercontent.com/77486870/170821008-1b313b39-837e-432c-8cec-2d8a4486690d.png)
 ![screenshot-colorlib com-2022 05 28-15_43_02](https://user-images.githubusercontent.com/77486870/170821009-a8eda769-4cb0-4b1d-927a-9a72f735c561.png)
 ![screenshot-colorlib com-2022 05 28-15_42_14](https://user-images.githubusercontent.com/77486870/170821014-dd2e4295-cfbd-4dc3-b773-a15776f9e235.png)
 
+<<<<<<< HEAD
+**[Project Demo](https://colorlib.com/polygon/gentelella/index.html)**
+
+=======
 **[Project Demo](https://colorlib.com/polygon/gentelella/index.html)**  
 **[Video Link](https://drive.google.com/file/d/1lUAVhAUr01o8-BoUeq2sph8le1GdpafO/view?usp=sharing)**  
+>>>>>>> 5b92a1a6321c60ec9d553b801c0662018f287741
 ## How to contribute
+
 To contribute, please ensure that you have stable [Node.js](https://nodejs.org/) and [npm](https://npmjs.com) installed.
 
 Test if Gulp CLI is installed by running `gulp --version`.  If the command isn't found, run `npm install -g gulp`.  For more information about installing Gulp, see the Gulp's [Getting Started](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
@@ -54,7 +63,7 @@ If `gulp` is installed, follow the steps below.
 3. Now you can code, code and code!
 4. Submit a pull request
 
-# Installation via package manager
+## Installation via package manager
 
 ## Getting Started with Create React App
 
@@ -128,6 +137,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ## License information
+
 Project is licensed under The MIT License (MIT). Which means that you can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
 
 Project is developed and maintained by [whiteHatpro](https://github.com/whiteHatpro)

@@ -1,26 +1,26 @@
 require('dotenv').config();
 
-const webpack = require('webpack');
-const path = require('path');
-const merge = require('webpack-merge');
-const TerserPlugin = require('terser-webpack-plugin');
-const WorkboxPlugin = require('workbox-webpack-plugin');
+import { LoaderOptionsPlugin } from 'webpack';
+import { resolve } from 'path';
+import merge from 'webpack-merge';
+import TerserPlugin from 'terser-webpack-plugin';
+import { GenerateSW } from 'workbox-webpack-plugin';
 
-const baseConfig = require('./webpack.common.js');
+import baseConfig from './webpack.common.js';
 
 const plugins = [
 
-    new webpack.LoaderOptionsPlugin({
+    new LoaderOptionsPlugin({
         minimize: true,
     }),
      
-    new WorkboxPlugin.GenerateSW({
+    new GenerateSW({
         swDest: 'sw.js',
         skipWaiting: true,
         clientsClaim: true,
     }),
 ];
-module.exports = merge(baseConfig, {
+export default merge(baseConfig, {
     mode: 'production',
     entry: {
         vendor: [
@@ -29,11 +29,11 @@ module.exports = merge(baseConfig, {
             'lodash',
             'antd',
         ],
-        app: ['@babel/polyfill', path.resolve(__dirname, 'src/index.tsx')],
+        app: ['@babel/polyfill', resolve(__dirname, 'src/index.tsx')],
     },
     output: {
  
-        path: path.resolve(__dirname, 'docs'),
+        path: resolve(__dirname, 'docs'),
         filename: 'js/[name].[chunkhash:16].js',
         chunkFilename: 'js/[id].[chunkhash:16].js',
         publicPath: process.env.PUBLIC_URL,

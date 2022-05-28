@@ -1,16 +1,16 @@
-const webpack = require('webpack');
-const path = require('path');
-const TerserPlugin = require('terser-webpack-plugin');
+import { LoaderOptionsPlugin } from 'webpack';
+import { resolve as _resolve } from 'path';
+import TerserPlugin from 'terser-webpack-plugin';
 
-const pkg = require('./package.json');
+import { name as _name } from './package.json';
 
 const plugins = [
      
-    new webpack.LoaderOptionsPlugin({
+    new LoaderOptionsPlugin({
         minimize: true,
     }),
 ];
-module.exports = {
+export default {
     mode: 'production',
     entry: {
         [pkg.name]: ['@babel/polyfill', path.resolve(__dirname, 'src/components/editor/index.tsx')],

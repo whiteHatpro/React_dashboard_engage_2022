@@ -1,10 +1,10 @@
 require('dotenv').config();
 
-const webpack = require('webpack');
-const merge = require('webpack-merge');
-const path = require('path');
+import { HotModuleReplacementPlugin } from 'webpack';
+import merge from 'webpack-merge';
+import { resolve } from 'path';
 
-const baseConfig = require('./webpack.common.js');
+import baseConfig from './webpack.common.js';
 
 const devPort = process.env.DEV_PORT;
 const host = process.env.DEV_HOST;
@@ -12,7 +12,7 @@ const host = process.env.DEV_HOST;
 const proxyHTTP = process.env.DEV_PROXY_HTTP;
 const proxyWS = process.env.DEV_PROXY_WS;
 
-module.exports = merge(baseConfig, {
+export default merge(baseConfig, {
     mode: 'development',
     devtool: 'inline-source-map',
     entry: {
@@ -21,11 +21,11 @@ module.exports = merge(baseConfig, {
             'react-hot-loader/patch',
             `webpack-dev-server/client?http://${host}:${devPort}`,
             'webpack/hot/only-dev-server',
-            path.resolve(__dirname, 'src/index.tsx'),
+            resolve(__dirname, 'src/index.tsx'),
         ],
     },
     output: {
-        path: path.resolve(__dirname, 'public'),
+        path: resolve(__dirname, 'public'),
         publicPath: '/',
         filename: '[name].[hash:16].js',
         chunkFilename: '[id].[hash:16].js',
@@ -33,7 +33,7 @@ module.exports = merge(baseConfig, {
     devServer: {
         inline: true,
         port: devPort,
-        contentBase: path.resolve(__dirname, 'public'),
+        contentBase: resolve(__dirname, 'public'),
         hot: true,
         publicPath: '/',
         historyApiFallback: true,
@@ -52,6 +52,6 @@ module.exports = merge(baseConfig, {
         },
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin(),  
+        new HotModuleReplacementPlugin(),  
     ],
 });
