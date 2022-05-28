@@ -17,6 +17,9 @@ class ErrorBoundary extends Component<{}, IState> {
             errorInfo,
         });
     }
+    setState(_arg0: { error: Error; errorInfo: ErrorInfo; }) {
+        throw new Error('Method not implemented.');
+    }
 
     componentWillUnmount() {
         this.setState({

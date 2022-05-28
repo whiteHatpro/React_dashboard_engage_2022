@@ -1,10 +1,10 @@
-const del = require('del');
-const fs = require('fs-extra');
+import { sync } from 'del';
+import { copySync } from 'fs-extra';
 
-del.sync([
+sync([
     'dist/**',
     'lib/**',
     'docs/**',
 ]);
 
-fs.copySync('public', 'docs');
+copySync('public', 'docs');

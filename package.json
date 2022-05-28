@@ -1,5 +1,5 @@
 {
-  "name": "react-analytics",
+  "name": "statstation",
   "version": "0.0.1",
   "description": "Data visualization analysis editor developed with react, antd, echarts",
   "main": "index.js",
@@ -25,7 +25,7 @@
     "analytics",
     "editor"
   ],
-  "author": "salgum1114",
+  "author": "whiteHatpro",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/whiteHatpro/React_dashboard_engage_2022"

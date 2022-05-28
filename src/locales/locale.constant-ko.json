@@ -56,61 +56,61 @@
     },
     "widget": {
         "modify": "Edit widget",
-        "delete": "위젯 삭제",
-        "clone": "위젯 복제",
-        "silent": "이벤트 취소",
-        "scale": "차트 확대",
-        "z-level": "우선 순위",
-        "boundary-gap": "차트 공백",
-        "interval": "간격",
-        "min-interval": "최소 간격",
-        "max-interval": "최대 간격",
-        "split-number": "분할 개수",
-        "log-base": "로그 베이스",
-        "contain-label": "라벨 표시 여부",
+        "delete": "Delete widget",
+        "clone": "clone widget",
+        "silent": "event cancellation",
+        "scale": "chart zoom",
+        "z-level": "Priority",
+        "boundary-gap": "chart blank",
+        "interval": "interval",
+        "min-interval": "Minimum spacing",
+        "max-interval": "maximum spacing",
+        "split-number": "number of divisions",
+        "log-base": "log base",
+        "contain-label": "label visibility",
         "card": {
-            "title": "카드 위젯",
-            "description": "카드 형태의 위젯을 추가합니다",
-            "type": "카드 형태"
+            "title": "card widget",
+            "description": "Add a widget in the form of a card",
+            "type": "card type"
         },
         "memo": {
-            "title": "메모 위젯",
-            "description": "HTML, 텍스트 등 다양한 내용을 메모할 수 있습니다",
-            "html": "HTML 여부"
+            "title": "Notes widget",
+            "description": "You can take notes of HTML, text, etc.",
+            "html": "is it HTML"
         },
         "line-chart": {
-            "title": "라인 차트 위젯",
-            "description": "라인 형태의 차트 위젯을 추가합니다",
-            "isArea": "영역 차트 여부"
+            "title": "line chart widget",
+            "description": "Add a chart widget in the form of a line",
+            "isArea": ​​"is an area chart?"
         },
         "pie-chart": {
-            "title": "파이 차트 위젯",
-            "description": "파이 형태의 차트 위젯을 추가합니다"
+            "title": "Pie Chart Widget",
+            "description": "Adds a pie chart widget"
         },
         "area-chart": {
-            "title": "영역 차트 위젯",
-            "description": "영역 형태의 차트 위젯을 추가합니다"
+            "title": "Area Chart Widget",
+            "description": "Adds a chart widget in the form of an area"
         },
         "series": {
-            "title": "시리즈",
-            "description": "시리즈를 추가합니다"
+            "title": "series",
+            "description": "add a series"
         },
         "xaxis": {
-            "title": "X 축",
-            "description": "X 축을 설정합니다",
-            "data": "X 축 데이터"
+            "title": "X-axis",
+            "description": "Sets the X axis",
+            "data": "X-axis data"
         },
         "yaxis": {
-            "title": "Y 축",
-            "description": "Y 축을 설정합니다",
-            "data": "Y 축 데이터"
+            "title": "Y axis",
+            "description": "Sets the Y axis",
+            "data": "Y-axis data"
         },
         "grid": {
-            "title": "그리드",
-            "description": "차트의 그리드를 설정합니다"
+            "title": "grid",
+            "description": "set the grid for the chart"
         },
         "animation": {
-            "title": "애니메이션"
+            "title": "animation"
         },
         "tooltip": {
             "title": "title",
@@ -121,7 +121,7 @@
         }
     },
     "validate": {
-        "enter-arg": "'{{arg}}'을(를) 입력해 주세요"
+        "enter-arg": "Please enter '{{arg}}'"
     },
     "layout": {
         "left": "left",
