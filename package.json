@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/salgum1114/react-analytics.git"
+    "url": "git+https://github.com/whiteHatpro/React_dashboard_engage_2022.git"
   },
   "keywords": [
     "react",
@@ -28,9 +28,9 @@
   "author": "salgum1114",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/salgum1114/react-analytics/issues"
+    "url": "https://github.com/whiteHatpro/React_dashboard_engage_2022"
   },
-  "homepage": "https://github.com/salgum1114/react-analytics#readme",
+  "homepage": "https://github.com/whiteHatpro/React_dashboard_engage_2022#readme",
   "dependencies": {
     "antd": "^4.0.2",
     "classnames": "^2.2.6",

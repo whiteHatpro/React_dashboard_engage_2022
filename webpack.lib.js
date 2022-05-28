@@ -5,7 +5,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const pkg = require('./package.json');
 
 const plugins = [
-    // 로더들에게 옵션을 넣어주는 플러그인
+     
     new webpack.LoaderOptionsPlugin({
         minimize: true,
     }),
@@ -17,7 +17,7 @@ module.exports = {
         [`${pkg.name}.min`]: ['@babel/polyfill', path.resolve(__dirname, 'src/components/editor/index.tsx')],
     },
     output: {
-        // entry에 존재하는 app.js, vendor.js로 뽑혀 나온다.
+         
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js',
         library: `${pkg.name}.js`,
@@ -79,7 +79,7 @@ module.exports = {
                     warnings: false,
                     compress: {
                         warnings: false,
-                        unused: true, // tree shaking(export된 모듈 중 사용하지 않는 모듈은 포함하지않음)
+                        unused: true,  
                     },
                     ecma: 6,
                     mangle: true,
