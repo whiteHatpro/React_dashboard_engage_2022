@@ -2,7 +2,7 @@
 
 This is the project made during my microsoft engage 2022 period on the topic Data Analytics!
 
-Statstation is a full-stack web application on which multiple people can have a video conversation.
+Statstation is a full-stack web application on which multiple people can study the stats of various data.
 Implemented the ADAPT Feature(ADAPT) to store data from charts.
 Created multiple dashboard Page (X-Factor) where people can have virtual do analysis/view stats together and share with people of common interests.
 
@@ -18,10 +18,10 @@ The development was led forward with an agile mindset, following an iterative de
 
 ## Overview
 
-The peer to peer dashboard is handled using the chartjs library for javascript and the connection to any room is managed by routing libraries. Each peer that is on the current dashboard network had a collection of data it is connected to. The dashboard allows the peers on this network to communicate among themselves by updating graphs with data. The cloud chartjs servers are used to initialize every peer on the network. By default, peerJS is configured to connect to Google's **STUN** server, but for **TURN** servers, we have to manually configure the details while the peer is created.
+The peer to peer dashboard is handled using the chartjs library for javascript and the connection to any room is managed by routing libraries. Each peer that is on the current dashboard network had a collection of data it is connected to. The dashboard allows the peers on this network to communicate among themselves by updating graphs with data. The cloud chartjs servers are used to initialize every peer on the network. By default, peerJS is configured to connect to Google's **STUN** server, but for **TURN** servers, we have to manually configure the details while the peer data is created.
 
-WebRTC is used to access the media devices and capture the media stream using ``navigator.mediaDevices.getUserMedia()`` . For display streams like screensharing, etc. webrtc's ``navigator.mediaDevices.getDisplayMedia()`` allows users to capture their screen contents in a similar way. It allows us to access all the tracks of any media-stream(video or audio) which in turn allows us to enable or disable them accordingly and properly end streams on closing peer connections. A stream is sent over all the peer to peer connections present in the socket connection.  
-Hence, visual, audio & textual communication is altogether implemented using peerJS, socketIO & webRTC.
+eChartjs is used to extract the charts and the graph handles using ``navigator.mediaDevices.getUserMedia()`` . For displaying analytical data like graphs,charts etc. AntD's ``navigator.mediaDevices.getDisplayMedia()`` allows users to capture their screen contents in a similar way. It allows us to access all the tracks of any data-input(static or dynamic) which in turn allows us to update or disable them accordingly and properly end user better interfacing. A datafeed is sent over all the peer to peer connections present in the database server.  
+Hence, visualisation, updation & creating analytical data is altogether implemented using eChart.js,AntD designs and Reactjs.
 
 The backend server is an express app with APIs to create users & channels, add user to channels, fetching user channels and generate user unique room-ids for channels. React was used to develop a simple, well-structured & responsive UI, while keeping an agile mindset.  
 
@@ -41,8 +41,13 @@ User authentication is added to the application using firebase along with React'
 ![screenshot-colorlib com-2022 05 28-15_43_02](https://user-images.githubusercontent.com/77486870/170821009-a8eda769-4cb0-4b1d-927a-9a72f735c561.png)
 ![screenshot-colorlib com-2022 05 28-15_42_14](https://user-images.githubusercontent.com/77486870/170821014-dd2e4295-cfbd-4dc3-b773-a15776f9e235.png)
 
+<<<<<<< HEAD
 **[Project Demo](https://colorlib.com/polygon/gentelella/index.html)**
 
+=======
+**[Project Demo](https://colorlib.com/polygon/gentelella/index.html)**  
+**[Video Link](https://drive.google.com/file/d/1lUAVhAUr01o8-BoUeq2sph8le1GdpafO/view?usp=sharing)**  
+>>>>>>> 5b92a1a6321c60ec9d553b801c0662018f287741
 ## How to contribute
 
 To contribute, please ensure that you have stable [Node.js](https://nodejs.org/) and [npm](https://npmjs.com) installed.
